@@ -5,7 +5,7 @@ function Github(){
     const fetchUser = () => {
         fetch("https://api.github.com/users/Ashishlakhimale23", {
             headers: {
-                Authorization: "token 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"
+                Authorization: "token"
             }
         })
         .then((res) => res.json())
